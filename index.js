@@ -29,7 +29,7 @@ let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
 
 // Alternative configurations:
-// Single proxy IP: let proxyIP = '104.248.145.216:443';
+// Single proxy IP: let proxyIP = 'nima.nscl.ir';
 // IPv6 example: let proxyIP = "2.59.117.217"
 
 /**
